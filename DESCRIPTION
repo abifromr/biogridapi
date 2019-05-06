@@ -1,0 +1,23 @@
+Package: biogridapi
+Type: Package
+Title: An R client for BIOGRID API
+Version: 0.1.0
+License: GPL-3
+Authors@R: person("Mahmoud", "Ahmed",
+  email = "mahmoud.s.fahmy@students.kasralainy.edu.eg",
+  role = c("aut", "cre"))
+URL: https://github.com/abifromr/biogridapi
+BugReports: https://github.com/abifromr/biogridapi/issues
+Description: Provide a set of functions to interact with the BIOGRID API in R.
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 2.10)
+Remotes: abifromr/apihelpers
+Imports: httr,
+  readr,
+  usethis,
+  apihelpers,
+Suggests: 
+    testthat,
+    covr
+RoxygenNote: 6.1.1
