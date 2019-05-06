@@ -28,7 +28,7 @@ curl https://webservice.thebiogrid.org/interactions?searchNames=true&geneList=MD
 
 ```
 
-This would look like the following using `stringapi`
+This would look like the following using `biogridapi`
 
 ```r
 accessKey=<'32 alphanumeric string'>
